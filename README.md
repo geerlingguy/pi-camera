@@ -23,11 +23,10 @@ Inspiration:
   - [Twidec 12mm momentary push button](https://amzn.to/3ijIj0C)
   - [2x4 2.54mm Female Headers](https://amzn.to/3CrlQ8H)
   - USB-C battery bank and USB-C cable for powering the Pi
-  - M2 screws (TBD what sizes exactly...)
-
-> Note: Someday I would like to design an 18650 battery circuit that fits in the grip and connects to the Pi's 5V power rail directly. Having a giant ugly cable hanging off the camera is annoying.
->
-> While on the topic of wishful thinking, I'd also like to add a second button for power—basically, it will turn on the Pi if it's off, then if it's running, when pressed it will exit the camera application gracefully, then shut down the Pi.
+  - Screws and nuts:
+    - M2.5x12mm x4, with a nut for each screw (for Pi)
+    - M2.5x4mm (screw) x4 (for front camera attachment)
+    - M2x5mm x2 (for bottom plate)
 
 ### 3D Printed Enclosure
 
