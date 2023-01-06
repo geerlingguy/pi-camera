@@ -13,11 +13,14 @@ Inspiration:
   - [RUHAcam](https://github.com/penk/ruha.camera) by [@penk](https://github.com/penk)
   - [PIKON Camera](https://www.kevsrobots.com/blog/pikon-camera.html) by [Kevin McAleer](https://www.kevsrobots.com)
 
+If you run into any problems, or have suggestions for improving the design, assembly, or code to run the camera, plase feel free to open an issue.
+
 ## Assembling the Camera
 
 ### Parts required
 
   - Raspberry Pi 4 model B (2 GB RAM or better)
+  - Raspberry Pi Camera Module 3 (Other camera modules should work too!)
   - [SanDisk Extreme 128GB microSD card](https://amzn.to/3GnJ1BM)
   - [Waveshare 3.5" TFT GPIO LCD](https://amzn.to/3ZdFley)
   - [Twidec 12mm momentary push button](https://amzn.to/3ijIj0C)
