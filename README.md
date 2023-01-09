@@ -15,6 +15,10 @@ Inspiration:
 
 If you run into any problems, or have suggestions for improving the design, assembly, or code to run the camera, plase feel free to open an issue.
 
+## Video
+
+I posted a video detailing the assembly and testing of this camera project on YouTube: [https://www.youtube.com/watch?v=1EIFfln3Kxs](https://www.youtube.com/watch?v=1EIFfln3Kxs).
+
 ## Assembling the Camera
 
 ### Parts required
