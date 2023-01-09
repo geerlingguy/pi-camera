@@ -2,7 +2,7 @@
 
 This project has the files and information required to build a compact and portable Raspberry Pi camera.
 
-TODO: Picture of finished camera, front and back?
+![Raspberry Pi Camera assembled](images/pikon-camera-assembled.jpeg)
 
 The project is based around the Pi Camera v3, which has autofocus and a 12 megapixel sensor, but any compatible camera module can work (including Arducam's higher-resolution or autofocus cameras).
 
@@ -35,21 +35,19 @@ If you run into any problems, or have suggestions for improving the design, asse
 
 You can basically duck-tape together the rig if you squish the camera cable in between the Pi and the Waveshare screen, and tape the button somewhere. But that's not very elegant.
 
-TODO: Pic of enclosure here.
-
 So instead, I [adapted the 'PIKON' design](https://www.kevsrobots.com/blog/pikon-camera.html) from Kevin McAleer, and modified it to fit the 12mm pushbutton for the shutter, and a Pi Camera v3 instead of the HQ camera.
 
 More tweaks to the 3D case design should be made, to make it a little more organic/comfortable, and to better fit the parts (especially if we can get an 18650 rechargeable battery in there!).
 
-TODO: Link to 3D STL files?
+For now, the current version of the case is split into two parts: the main enclosure, and the bottom cover. You can find the STL files inside the `enclosure` directory.
 
 ### Assembly
 
   1. Solder the 12mm pushbutton leads onto the first and last pin on one of the 2x4 female headers. (In my setup, I have one lead going to a ground pin, and the other to GPIO pin 21. Your setup may vary, depending on how you attach the pushbutton.)
   1. Route the camera module cable in through the slit on the front of the enclosure.
-  1. Screw the camera module into the enclosure using (TODO) M2 screws.
+  1. Screw the camera module into the enclosure using M2.5 4mm screws. (Note: These screws will embed themselves into the PCB a little as you screw them in.)
   1. Insert the Raspberry Pi into the enclosure, with the ports facing out the left side.
-  1. Screw the Raspberry Pi into the four standoffs using (TODO) M2 screws.
+  1. Screw the Raspberry Pi into the four standoffs using M2 12mm screws threaded from the outside, held in place with nuts on the inside on top of the Pi.
   1. Plug the camera module cable into the Pi's Camera CSI connector, making sure the exposed pins face the port side of the board.
   1. Plug the pre-soldered pushbutton header into the GPIO pins so the two connections go to ground and GPIO pin 21. Gently bend the connecting wires so they do not push against the display.
   1. Install the Waveshare GPIO TFT display on the GPIO header. The display should be fixed directly on top of the Pi 4 model B itself.
@@ -119,7 +117,7 @@ A preview window should appear on the screen, and if you click the button, it sh
 
 ### Enabling the camera at boot
 
-To get the camera to start up at system boot, TODO.
+Instructions for making the camera start at system boot using `systemd` will be added soon.
 
 ## License
 
